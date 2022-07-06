@@ -1,6 +1,6 @@
 node default {
 }
-node 'puppet' {
+node 'puppet.home.pokemon-neogenesis.org' {
   include role::master_server
 }
 
