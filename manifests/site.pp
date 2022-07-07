@@ -16,6 +16,6 @@ node /^db/ {
   include role::db_server
 }
 
-node 'minetest.home.pokemon-neogenesis.org' {
+node 'minetest-puppet.home.pokemon-neogenesis.org' {
   include role::minetest
 }
