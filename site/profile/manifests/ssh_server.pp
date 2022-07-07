@@ -12,7 +12,7 @@ class profile::ssh_server {
 		type   => 'ssh-ed25519',
 		key    => 'AAAAC3NzaC1lZDI1NTE5AAAAIDkzabne0d1VtXT24rAIkdvteGBAOLSjKa4hKdKP6U+E',
 	}  
-	ssh_authorized_key { 'rocky@master.puppet.vm':
+	ssh_authorized_key { 'ritanime':
 		ensure => present,
 		user   => 'rocky',
 		type   => 'ssh-ed25519',
