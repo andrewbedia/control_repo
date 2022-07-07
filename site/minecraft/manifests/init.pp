@@ -7,7 +7,7 @@ class minecraft (
   }
   file {"${install_dir}/minecraft_server.1.19.jar":
     ensure => file,
-    source => '$url',
+    source => $url,
     before => Service['minecraft'],
   }
   package {'java-17':
